@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{61f273fa-c877-4386-b3f6-42c11c5f8197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protect">
+      <UniqueIdentifier>{b7da9420-0bbb-4b60-8aff-6c6e2fd59cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="javascript">
+      <UniqueIdentifier>{c567602e-0814-4889-b0ce-825cc6c464f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="javascript\duktape">
+      <UniqueIdentifier>{56646c4c-8552-419a-a517-72256a3acf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{aebb5a9b-18df-4e35-85d3-dfabc2866ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ImGui">
+      <UniqueIdentifier>{a3fb0efa-6e5f-482b-9911-48286aa4665a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Wrapper">
+      <UniqueIdentifier>{f6be7214-f86a-40d5-b6b6-b87abbca21d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Wrapper\headers">
+      <UniqueIdentifier>{a39c9286-47bf-4e8d-827d-e974b7b2a5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Wrapper\gui">
+      <UniqueIdentifier>{096c984e-60c1-4847-8509-21ffd2d0d072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{40962329-d52e-4a61-863f-e87221d64852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features">
+      <UniqueIdentifier>{ce88d2a0-8fff-45b0-a609-7a3e27ffeb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Headers">
+      <UniqueIdentifier>{0d8be913-6938-45eb-9458-bea8bd6db8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Rage">
+      <UniqueIdentifier>{2b660e0e-1596-4421-8fd9-08c91d7ec5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Rage\Animation">
+      <UniqueIdentifier>{2f6239b4-9d1e-4e08-9f6f-7d9aceff6698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Legit">
+      <UniqueIdentifier>{32e7def8-0d5a-4374-af5c-41e6ddd2013f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Visual">
+      <UniqueIdentifier>{c03727b9-7e78-4bdb-b585-e149b640a9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Misc">
+      <UniqueIdentifier>{84d35eff-b0b5-42c0-a084-c553e94c7924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Features\Helpers">
+      <UniqueIdentifier>{e2a772b7-ca26-4586-b4e6-6078f03c20b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Hooks">
+      <UniqueIdentifier>{5c103d2a-f538-4287-bd6f-64e3a946117a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Enty point">
+      <UniqueIdentifier>{34cc7e92-458f-496b-a015-9fabc362c35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\SDK">
+      <UniqueIdentifier>{33f01dc3-b312-48b4-8fd1-3a58e83fd345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\minhook">
+      <UniqueIdentifier>{9c959080-bb9e-488a-89e6-3fe412abf6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Bytes">
+      <UniqueIdentifier>{759131fc-a5ec-4e49-9983-b16ee37023ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Bytes\ragebot_icons">
+      <UniqueIdentifier>{c9f8c286-618b-48a8-a374-f4d08d2bf1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Bytes\menu_icons">
+      <UniqueIdentifier>{29404f4e-a5cb-4208-8f08-f17951f5aeab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alpha_slider_bg.h">
+      <Filter>Cheat\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpicker_bg.h">
+      <Filter>Cheat\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginFrame.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Createmove.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DoPostScreenEffects.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelExecuted.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHook.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEventClientSide.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFix.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAims.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePrediction.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Knifebot.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Legitbot.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBackTracking.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ragebot.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL_MAIN.h">
+      <Filter>Cheat\Enty point</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Cheat\Enty point</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="c_movehelper.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="c_trace.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="c_usercmd.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_crc.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_md5.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dfont.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_overlay.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_trace.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="entlist.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="game_event.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="global_vars.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="glow_manager.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="i_base_player.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="iBaseClientDLL.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="input_system.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="material_system.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="model_info.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="model_render.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="netvar_manager.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_surface_props.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvProps.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="render_view.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="studio_render.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="view_render_beams.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT_Manager.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="vpanel.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainStruct.h">
+      <Filter>Cheat\Enty point</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitmarker.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupAnimation.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTraverse.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="OverRideView.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnd.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="WndProc.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChannelhook.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\protect.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\mac.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\md5.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\request.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\tcp_client.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\VMProtectSDK.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\xorstr.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\encoding.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\fnv_a1.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\hwid.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\weapon_glock.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\weapon_m4a1.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\weapon_scar20.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\weapon_ssg08.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\item_assaultsuit.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\weapon_awp.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="ragebot_icons\weapon_deagle.h">
+      <Filter>Cheat\Bytes\ragebot_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\cryptoc.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="manrope_meduim_ttf.h">
+      <Filter>Cheat\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteUsercmdDeltaToBuffer.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>Cheat\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="i_mdl_cache.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="server_api.hpp">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\config.h">
+      <Filter>protect</Filter>
+    </ClInclude>
+    <ClInclude Include="Autopeek.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dormant.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="key_values.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="duktape\duktape.h">
+      <Filter>javascript\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="duktape\duk_config.h">
+      <Filter>javascript\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="javascript\js_handler.h">
+      <Filter>javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="javascript\api.h">
+      <Filter>javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="javascript\js_loader.h">
+      <Filter>javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>Cheat\Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hitsounds.h">
+      <Filter>Cheat\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bunnyhop.h">
+      <Filter>Cheat\Features\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\buffer.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde32.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde64.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\MinHook.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\pstdint.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table32.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table64.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\trampoline.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker.h">
+      <Filter>Cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheSystem.h">
+      <Filter>Cheat\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_freetype.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="undefeated.h">
+      <Filter>Cheat\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\button.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\checkbox.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\child.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\colorpicker.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\combo.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\dynamic_text.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\input_text.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\keybind.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\listbox.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\multicombo.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ragebot_subtabs.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\separator.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\slider.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\tab.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\tab_selector.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\text.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\window.h">
+      <Filter>GUI\Wrapper\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\element.h">
+      <Filter>GUI\Wrapper\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\gui.h">
+      <Filter>GUI\Wrapper\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\misc.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\profile.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\rage.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\skins.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\visuals.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\configs.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_icons\legit.h">
+      <Filter>Cheat\Bytes\menu_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="javascript\cache.h">
+      <Filter>javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventlog.h">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="shonax_moneybot_menu\direct_render_shonax.h" />
+    <ClInclude Include="shonax_moneybot_menu\icons\config.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\legit.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\misc.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\rage.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\visuals.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\menu_elements_shonax.h" />
+    <ClInclude Include="shonax_moneybot_menu\input_state_shonax.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Cheat\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="DLL_MAIN.cpp">
+      <Filter>Cheat\Enty point</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Cheat\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_crc.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_md5.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dfont.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="i_base_player.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="netvar_manager.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="protect\protect.cpp">
+      <Filter>protect</Filter>
+    </ClCompile>
+    <ClCompile Include="Variables.cpp">
+      <Filter>Cheat\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="protect\config.cpp">
+      <Filter>protect</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAims.cpp">
+      <Filter>Cheat\Features\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="Ragebot.cpp">
+      <Filter>Cheat\Features\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Cheat\Features\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBackTracking.cpp">
+      <Filter>Cheat\Features\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="Dormant.cpp">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitmarker.cpp">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>Cheat\Features\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="Legitbot.cpp">
+      <Filter>Cheat\Features\Legit</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Cheat\Features\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePrediction.cpp">
+      <Filter>Cheat\Features\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Cheat\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFix.cpp">
+      <Filter>Cheat\Features\Rage\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtrack.cpp">
+      <Filter>Cheat\Features\Rage\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalAnimationFix.cpp">
+      <Filter>Cheat\Features\Rage\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="duktape\duktape.c">
+      <Filter>javascript\duktape</Filter>
+    </ClCompile>
+    <ClCompile Include="javascript\js_handler.cpp">
+      <Filter>javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="javascript\api.cpp">
+      <Filter>javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="javascript\js_loader.cpp">
+      <Filter>javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadePrediction.cpp">
+      <Filter>Cheat\Features\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Cheat\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Autopeek.cpp">
+      <Filter>Cheat\Features\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Knifebot.cpp">
+      <Filter>Cheat\Features\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\buffer.c">
+      <Filter>Cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde32.c">
+      <Filter>Cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde64.c">
+      <Filter>Cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hook.c">
+      <Filter>Cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\trampoline.c">
+      <Filter>Cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="fonts\SMALLEST_PIXEL-7.c">
+      <Filter>Cheat\Bytes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\combo.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\dynamic_text.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\input_text.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\keybind.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\listbox.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\multicombo.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\rabegot_subtabs.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\separator.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\slider.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\tab.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\tab_selector.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\text.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\window.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\button.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\checkbox.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\child.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\colorpicker.cpp">
+      <Filter>GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheSystem.cpp">
+      <Filter>Cheat\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_freetype.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\gui.cpp">
+      <Filter>GUI\Wrapper\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="javascript\cache.cpp">
+      <Filter>javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="shonax_moneybot_menu\direct_render_shonax.cpp" />
+    <ClCompile Include="shonax_moneybot_menu\menu_elements_shonax.cpp" />
+    <ClCompile Include="shonax_moneybot_menu\input_state_shonax.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="server_api.lib">
+      <Filter>protect</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="duktape\duk_source_meta.json">
+      <Filter>javascript\duktape</Filter>
+    </None>
+  </ItemGroup>
+</Project>

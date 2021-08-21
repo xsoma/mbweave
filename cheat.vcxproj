@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Beta|Win32">
+      <Configuration>Beta</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alpha_slider_bg.h" />
+    <ClInclude Include="AnimationFix.h" />
+    <ClInclude Include="AntiAims.h" />
+    <ClInclude Include="Autopeek.h" />
+    <ClInclude Include="Autowall.h" />
+    <ClInclude Include="BeginFrame.h" />
+    <ClInclude Include="bspflags.h" />
+    <ClInclude Include="Bunnyhop.h" />
+    <ClInclude Include="CacheSystem.h" />
+    <ClInclude Include="Chams.h" />
+    <ClInclude Include="checksum_crc.h" />
+    <ClInclude Include="checksum_md5.h" />
+    <ClInclude Include="cMainStruct.h" />
+    <ClInclude Include="colorpicker_bg.h" />
+    <ClInclude Include="colors.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Createmove.h" />
+    <ClInclude Include="cvar.h" />
+    <ClInclude Include="c_movehelper.h" />
+    <ClInclude Include="c_trace.h" />
+    <ClInclude Include="c_usercmd.h" />
+    <ClInclude Include="d3dfont.h" />
+    <ClInclude Include="debug_overlay.h" />
+    <ClInclude Include="DLL_MAIN.h" />
+    <ClInclude Include="DoPostScreenEffects.h" />
+    <ClInclude Include="Dormant.h" />
+    <ClInclude Include="DrawModelExecuted.h" />
+    <ClInclude Include="duktape\duktape.h" />
+    <ClInclude Include="duktape\duk_config.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="EngineHook.h" />
+    <ClInclude Include="EnginePrediction.h" />
+    <ClInclude Include="engine_trace.h" />
+    <ClInclude Include="entlist.h" />
+    <ClInclude Include="Eventlog.h" />
+    <ClInclude Include="Features.h" />
+    <ClInclude Include="FireEventClientSide.h" />
+    <ClInclude Include="FrameStageNotify.h" />
+    <ClInclude Include="game_event.h" />
+    <ClInclude Include="global_vars.h" />
+    <ClInclude Include="Glow.h" />
+    <ClInclude Include="glow_manager.h" />
+    <ClInclude Include="GrenadePrediction.h" />
+    <ClInclude Include="GUI\button.h" />
+    <ClInclude Include="GUI\checkbox.h" />
+    <ClInclude Include="GUI\child.h" />
+    <ClInclude Include="GUI\colorpicker.h" />
+    <ClInclude Include="GUI\combo.h" />
+    <ClInclude Include="GUI\dynamic_text.h" />
+    <ClInclude Include="GUI\element.h" />
+    <ClInclude Include="GUI\gui.h" />
+    <ClInclude Include="GUI\input_text.h" />
+    <ClInclude Include="GUI\keybind.h" />
+    <ClInclude Include="GUI\listbox.h" />
+    <ClInclude Include="GUI\multicombo.h" />
+    <ClInclude Include="GUI\ragebot_subtabs.h" />
+    <ClInclude Include="GUI\separator.h" />
+    <ClInclude Include="GUI\slider.h" />
+    <ClInclude Include="GUI\tab.h" />
+    <ClInclude Include="GUI\tab_selector.h" />
+    <ClInclude Include="GUI\text.h" />
+    <ClInclude Include="GUI\window.h" />
+    <ClInclude Include="Hitmarker.h" />
+    <ClInclude Include="hitsounds.h" />
+    <ClInclude Include="hooker.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="iBaseClientDLL.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_freetype.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="input_system.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="i_base_player.h" />
+    <ClInclude Include="i_mdl_cache.h" />
+    <ClInclude Include="javascript\api.h" />
+    <ClInclude Include="javascript\cache.h" />
+    <ClInclude Include="javascript\js_handler.h" />
+    <ClInclude Include="javascript\js_loader.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="json\json-forwards.h" />
+    <ClInclude Include="json\json.h" />
+    <ClInclude Include="key_values.h" />
+    <ClInclude Include="Knifebot.h" />
+    <ClInclude Include="Legitbot.h" />
+    <ClInclude Include="manrope_meduim_ttf.h" />
+    <ClInclude Include="material_system.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="memalloc.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="menu_icons\configs.h" />
+    <ClInclude Include="menu_icons\legit.h" />
+    <ClInclude Include="menu_icons\misc.h" />
+    <ClInclude Include="menu_icons\profile.h" />
+    <ClInclude Include="menu_icons\rage.h" />
+    <ClInclude Include="menu_icons\skins.h" />
+    <ClInclude Include="menu_icons\visuals.h" />
+    <ClInclude Include="minhook\buffer.h" />
+    <ClInclude Include="minhook\hde\hde32.h" />
+    <ClInclude Include="minhook\hde\hde64.h" />
+    <ClInclude Include="minhook\hde\pstdint.h" />
+    <ClInclude Include="minhook\hde\table32.h" />
+    <ClInclude Include="minhook\hde\table64.h" />
+    <ClInclude Include="minhook\MinHook.h" />
+    <ClInclude Include="minhook\trampoline.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="model_info.h" />
+    <ClInclude Include="model_render.h" />
+    <ClInclude Include="NetChannelhook.h" />
+    <ClInclude Include="netvar_manager.h" />
+    <ClInclude Include="OverRideView.h" />
+    <ClInclude Include="PaintTraverse.h" />
+    <ClInclude Include="physics_surface_props.h" />
+    <ClInclude Include="prediction.h" />
+    <ClInclude Include="protect\config.h" />
+    <ClInclude Include="protect\cryptoc.hpp" />
+    <ClInclude Include="protect\encoding.hpp" />
+    <ClInclude Include="protect\fnv_a1.hpp" />
+    <ClInclude Include="protect\hwid.hpp" />
+    <ClInclude Include="protect\mac.hpp" />
+    <ClInclude Include="protect\md5.hpp" />
+    <ClInclude Include="protect\protect.hpp" />
+    <ClInclude Include="protect\request.hpp" />
+    <ClInclude Include="protect\tcp_client.hpp" />
+    <ClInclude Include="protect\VMProtectSDK.h" />
+    <ClInclude Include="protect\xorstr.h" />
+    <ClInclude Include="RageBackTracking.h" />
+    <ClInclude Include="Ragebot.h" />
+    <ClInclude Include="ragebot_icons\item_assaultsuit.h" />
+    <ClInclude Include="ragebot_icons\weapon_awp.h" />
+    <ClInclude Include="ragebot_icons\weapon_deagle.h" />
+    <ClInclude Include="ragebot_icons\weapon_glock.h" />
+    <ClInclude Include="ragebot_icons\weapon_m4a1.h" />
+    <ClInclude Include="ragebot_icons\weapon_scar20.h" />
+    <ClInclude Include="ragebot_icons\weapon_ssg08.h" />
+    <ClInclude Include="RecvProps.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="render_view.h" />
+    <ClInclude Include="Resolver.h" />
+    <ClInclude Include="RunCommand.h" />
+    <ClInclude Include="SceneEnd.h" />
+    <ClInclude Include="server_api.hpp" />
+    <ClInclude Include="SetupAnimation.h" />
+    <ClInclude Include="shonax_moneybot_menu\direct_render_shonax.h" />
+    <ClInclude Include="shonax_moneybot_menu\icons\config.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\legit.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\misc.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\rage.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\icons\visuals.hpp" />
+    <ClInclude Include="shonax_moneybot_menu\input_state_shonax.h" />
+    <ClInclude Include="shonax_moneybot_menu\menu_elements_shonax.h" />
+    <ClInclude Include="studio_render.h" />
+    <ClInclude Include="surface.h" />
+    <ClInclude Include="Tracer.h" />
+    <ClInclude Include="undefeated.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Variables.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="view_render_beams.h" />
+    <ClInclude Include="Visuals.h" />
+    <ClInclude Include="VMT_Manager.h" />
+    <ClInclude Include="vpanel.h" />
+    <ClInclude Include="WndProc.h" />
+    <ClInclude Include="WriteUsercmdDeltaToBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationFix.cpp" />
+    <ClCompile Include="AntiAims.cpp" />
+    <ClCompile Include="Autopeek.cpp" />
+    <ClCompile Include="Autowall.cpp" />
+    <ClCompile Include="Backtrack.cpp" />
+    <ClCompile Include="CacheSystem.cpp" />
+    <ClCompile Include="Chams.cpp" />
+    <ClCompile Include="checksum_crc.cpp" />
+    <ClCompile Include="checksum_md5.cpp" />
+    <ClCompile Include="d3dfont.cpp" />
+    <ClCompile Include="DLL_MAIN.cpp" />
+    <ClCompile Include="Dormant.cpp" />
+    <ClCompile Include="duktape\duktape.c" />
+    <ClCompile Include="EnginePrediction.cpp" />
+    <ClCompile Include="Features.cpp" />
+    <ClCompile Include="fonts\SMALLEST_PIXEL-7.c" />
+    <ClCompile Include="Glow.cpp" />
+    <ClCompile Include="GrenadePrediction.cpp" />
+    <ClCompile Include="GUI\button.cpp" />
+    <ClCompile Include="GUI\checkbox.cpp" />
+    <ClCompile Include="GUI\child.cpp" />
+    <ClCompile Include="GUI\colorpicker.cpp" />
+    <ClCompile Include="GUI\combo.cpp" />
+    <ClCompile Include="GUI\dynamic_text.cpp" />
+    <ClCompile Include="GUI\gui.cpp" />
+    <ClCompile Include="GUI\input_text.cpp" />
+    <ClCompile Include="GUI\keybind.cpp" />
+    <ClCompile Include="GUI\listbox.cpp" />
+    <ClCompile Include="GUI\multicombo.cpp" />
+    <ClCompile Include="GUI\rabegot_subtabs.cpp" />
+    <ClCompile Include="GUI\separator.cpp" />
+    <ClCompile Include="GUI\slider.cpp" />
+    <ClCompile Include="GUI\tab.cpp" />
+    <ClCompile Include="GUI\tab_selector.cpp" />
+    <ClCompile Include="GUI\text.cpp" />
+    <ClCompile Include="GUI\window.cpp" />
+    <ClCompile Include="Hitmarker.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_freetype.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="javascript\cache.cpp" />
+    <ClCompile Include="minhook\buffer.c" />
+    <ClCompile Include="minhook\hde\hde32.c" />
+    <ClCompile Include="minhook\hde\hde64.c" />
+    <ClCompile Include="minhook\hook.c" />
+    <ClCompile Include="minhook\trampoline.c" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="i_base_player.cpp" />
+    <ClCompile Include="javascript\api.cpp" />
+    <ClCompile Include="javascript\js_handler.cpp" />
+    <ClCompile Include="javascript\js_loader.cpp" />
+    <ClCompile Include="json\jsoncpp.cpp" />
+    <ClCompile Include="Knifebot.cpp" />
+    <ClCompile Include="Legitbot.cpp" />
+    <ClCompile Include="LocalAnimationFix.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="netvar_manager.cpp" />
+    <ClCompile Include="protect\config.cpp" />
+    <ClCompile Include="protect\protect.cpp" />
+    <ClCompile Include="RageBackTracking.cpp" />
+    <ClCompile Include="Ragebot.cpp" />
+    <ClCompile Include="Resolver.cpp" />
+    <ClCompile Include="shonax_moneybot_menu\direct_render_shonax.cpp" />
+    <ClCompile Include="shonax_moneybot_menu\input_state_shonax.cpp" />
+    <ClCompile Include="shonax_moneybot_menu\menu_elements_shonax.cpp" />
+    <ClCompile Include="Tracer.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Variables.cpp" />
+    <ClCompile Include="Visuals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="server_api.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="duktape\duk_source_meta.json" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9D8C6E55-5931-4C6C-945B-27864A3A393D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cheat</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectName>project</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)d3d9;$(ProjectDir)freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)d3d9;$(ProjectDir)freetype\objs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)d3d9;$(SolutionDir)\cheat\detour;$(SolutionDir)\cheat\freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)d3d9;$(SolutionDir)\cheat\freetype\objs;$(SolutionDir)\cheat\detour;$(LibraryPath)</LibraryPath>
+    <TargetName>cheat</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)\cheat\detour;$(SolutionDir)\cheat\freetype\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)\cheat\freetype\objs;$(SolutionDir)\cheat\detour;$(LibraryPath)</LibraryPath>
+    <TargetName>cheat</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;IMGUI_DEFINE_MATH_OPERATORS;_CONSOLE;_BETA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ntdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;IMGUI_DEFINE_MATH_OPERATORS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalOptions>/SAFESEH:NO
+ %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;IMGUI_DEFINE_MATH_OPERATORS;_CONSOLE;_BETA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalOptions>/SAFESEH:NO
+ %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
